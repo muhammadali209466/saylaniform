@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  background-color: whitesmoke;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.saylani {
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  width: 300px;
+  height: 80px;
+  padding-top: 10px;
+}
+
+.SMIT {
+  width: 38%;
+}
+
+.head {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.image {
+  width: 30%;
+}
+
+.box {
+  display: flex;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.smit {
+  text-align: center;
+  padding-top: 3px;
+}
+
+.studentportal {
+  width: 25%;
+}
+
+.heading1 {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
+.heading1:hover {
+  cursor: pointer;
+}
+
+.button3 {
+  text-align: center;
+}
+
+.button {
+  color: #0d6db7;
+  padding: 10px;
+  margin: 20px;
+  background-color: whitesmoke;
+  cursor: pointer;
+  border: solid 1px;
+
+  border-radius: 10px;
+}
+
+.para {
+  text-align: center;
+  font-weight: lighter;
+  padding: 15px;
+}
+
+.button2 {
+
+  background-color: white;
+  padding: 8px;
+  color: #8dc63f;
+  border: none;
+  cursor: pointer;
+}
+
+.ID {
+  cursor: pointer;
+  background-color: white;
+  padding: 8px;
+  color: #0d6db7;
+  border: none;
+}
+
+.Results {
+  cursor: pointer;
+  background-color: white;
+  padding: 8px;
+  color: #0d6db7;
+  border: none;
+}
+
+.registrationform1 {
+  margin-top: 20px;
+  display: flex;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  border: none;
+}
+
+label {
+  color: #0d6db7;
+  font-weight: bold;
+  display: block;
+}
+
+select {
+  padding: 9px;
+  border: #8dc63f;
+  border-radius: 4px;
+  width: 450px;
+}
+
+select:focus {
+  border: solid 2px #0d6db7;
+}
+
+input {
+  padding: 9px;
+  border-radius: 4px;
+  outline: none;
+  border: #8dc63f;
+  width: 450px;
+}
+
+input:focus {
+  border: solid 4px  #0d6db7;
+}
+
+.Computer {
+  display: flex;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.course {
+  padding: 10px;
+}
+
+.Efficiency {
+  padding: 10px;
+}
+
+.name {
+  display: flex;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.mailandphone {
+  display: flex;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.Optional {
+  display: flex;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.local {
+  display: flex;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.location {
+  width: 75%;
+  margin-left: auto;
+  background-color: whitesmoke;
+  border: none;
+  margin-right: auto;
+}
+
+.address input {
+  width: 100%;
+}
+
+.qualification {
+  width: 75%;
+  margin-left: auto;
+  background-color: whitesmoke;
+  border: none;
+  margin-right: auto;
+}
+
+.Last input {
+  width: 100%;
+}
+
+.Laptop {
+  width: 100%;
+  margin-left: auto;
+  background-color: whitesmoke;
+  border: none;
+  margin-right: auto;
+}
+
+.laptop input {
+  width: 100%;
+}
+
+.picture {
+  display: flex;
+  margin-top: 20px;
+  padding: 20px;
+  gap: 40px;
+}
+
+.upload input {
+  width: 100px;
+  border: solid 2px;
+  cursor: pointer;
+  padding: 30px;
+}
+
+.uploadpara {
+  color: #0d6db7;
+}
+
+.unorder {
+  list-style: none;
+}
+
+.list {
+  background-color: whitesmoke;
+  line-height: 28px;
+  margin-top: 40px;
+}
+
+.SUBMIT {
+  background-color: #0d6db7;
+  color: white;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+  border: none;
+  padding: 5px;
+}
