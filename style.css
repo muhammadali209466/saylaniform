@@ -2,11 +2,12 @@
   padding: 0;
   box-sizing: border-box;
   margin: 0;
+  font-family: "Ancizar Sans", sans-serif;
 }
 
 .header {
   background-color: whitesmoke;
-  width: 75%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -80,7 +81,6 @@
 }
 
 .button2 {
-
   background-color: white;
   padding: 8px;
   color: #8dc63f;
@@ -107,7 +107,7 @@
 .registrationform1 {
   margin-top: 20px;
   display: flex;
-  width: 75%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-evenly;
@@ -121,32 +121,73 @@ label {
   display: block;
 }
 
+.country {
+  width: 45%;
+  margin: 10px auto;
+}
+
+.Karachi {
+  width: 45%;
+  margin: 10px auto;
+}
+
+.course {
+  width: 45%;
+  margin: 10px auto;
+}
+
+.Efficiency {
+  width: 45%;
+  margin: 10px auto;
+}
+
 select {
   padding: 9px;
-  border: #8dc63f;
+  border: #8dc63f solid 1px;
   border-radius: 4px;
-  width: 450px;
+  width: 100%;
+  transition: all ease 0.3s;
 }
 
 select:focus {
-  border: solid 2px #0d6db7;
+  border: solid 1px #0d6db7;
 }
 
 input {
   padding: 9px;
   border-radius: 4px;
   outline: none;
-  border: #8dc63f;
-  width: 450px;
+  border: #8dc63f solid 1px;
+  width: 100%;
+}
+
+.cnic {
+  width: 45%;
+  margin: 10px auto;
+}
+
+.FatherCNIC {
+  margin: 10px auto;
+  width: 45%;
+}
+
+.date {
+  margin: 10px auto;
+  width: 45%;
+}
+
+.gender {
+  margin: 10px auto;
+  width: 45%;
 }
 
 input:focus {
-  border: solid 4px  #0d6db7;
+  border: solid 1px #0d6db7;
 }
 
 .Computer {
   display: flex;
-  width: 75%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-evenly;
@@ -154,27 +195,41 @@ input:focus {
   border: none;
 }
 
-.course {
-  padding: 10px;
-}
 
-.Efficiency {
-  padding: 10px;
-}
 
 .name {
   display: flex;
-  width: 75%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-evenly;
   background-color: whitesmoke;
   border: none;
+}
+
+.fullname {
+  width: 45%;
+  margin: 10px auto;
+}
+
+.fathername {
+  margin: 10px auto;
+  width: 45%;
+}
+
+.mail {
+  width: 45%;
+  margin: 10px auto;
+}
+
+.phone {
+  width: 45%;
+  margin: 10px auto;
 }
 
 .mailandphone {
   display: flex;
-  width: 75%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-evenly;
@@ -184,7 +239,7 @@ input:focus {
 
 .Optional {
   display: flex;
-  width: 75%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-evenly;
@@ -194,7 +249,7 @@ input:focus {
 
 .local {
   display: flex;
-  width: 75%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-evenly;
@@ -203,19 +258,34 @@ input:focus {
 }
 
 .location {
-  width: 75%;
+  width: 80%;
   margin-left: auto;
   background-color: whitesmoke;
   border: none;
   margin-right: auto;
 }
 
+.address {
+  width: 95%;
+  margin: 10px auto;
+}
+
 .address input {
   width: 100%;
 }
 
+.Last {
+  margin: 10px auto;
+  width: 95%;
+}
+
+.laptop {
+  margin: 10px auto;
+  width: 95%;
+}
+
 .qualification {
-  width: 75%;
+  width: 80%;
   margin-left: auto;
   background-color: whitesmoke;
   border: none;
@@ -264,6 +334,7 @@ input:focus {
   background-color: whitesmoke;
   line-height: 28px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .SUBMIT {
@@ -276,4 +347,151 @@ input:focus {
   text-align: center;
   border: none;
   padding: 5px;
+}
+
+@media screen and (min-width:519px) and (max-width:786px) {
+  .saylani {
+    width: 250px;
+  }
+
+  .smit {
+    font-size: 28px;
+  }
+
+  .SMIT {
+    width: 100%;
+  }
+
+  .studentportal {
+    width: 100%;
+
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:518px) {
+  .smit {
+    font-size: 24px;
+  }
+
+  .registrationform1 {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .Computer {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .name {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .location {
+
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .mailandphone {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .Optional {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .local {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .qualification {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .Laptop {
+    width: 95%;
+    flex-direction: column;
+  }
+
+
+
+  .Karachi {
+    width: 100%;
+  }
+
+
+  .country {
+    width: 100%;
+  }
+
+  .cnic {
+    width: 100%;
+  }
+
+  .FatherCNIC {
+    width: 100%;
+  }
+
+  .date {
+    width: 100%;
+  }
+
+  .address {
+    width: 100%;
+  }
+
+  .Efficiency {
+    width: 100%;
+  }
+
+  .course {
+    width: 100%;
+  }
+
+
+  .fathername {
+    width: 100%;
+  }
+
+  .fullname {
+    width: 100%;
+  }
+
+  .phone {
+    width: 100%;
+  }
+
+  .mail {
+    width: 100%;
+  }
+
+  .gender {
+    width: 100%;
+  }
+
+  .laptop {
+    width: 100%;
+  }
+
+  .Last {
+    width: 100%;
+  }
+
+  .picture {
+    flex-wrap: wrap;
+  }
+
+  .upload {
+    margin: 10px auto;
+  }
+
+  .inform {
+    margin: 10px auto;
+  }
 }
